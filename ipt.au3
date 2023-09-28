@@ -1309,10 +1309,7 @@ Func dstFuname()
 EndFunc
 
 
-HotStringSet("E{space}", EFuname)
-Func EFuname()
-    Send("{BACKSPACE}{BACKSPACE}乙")
-EndFunc
+
 
 
 HotStringSet("ear{space}", earFuname)
@@ -2786,10 +2783,7 @@ Func mscFuname()
 EndFunc
 
 
-HotStringSet("N{space}", NFuname)
-Func NFuname()
-    Send("{BACKSPACE}{BACKSPACE}氮")
-EndFunc
+
 
 
 HotStringSet("nail{space}", nailFuname)
@@ -4742,7 +4736,7 @@ EndFunc
 
 HotStringSet("TRUE{space}", TRUEFuname)
 Func TRUEFuname()
-    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}真的")
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}真正")
 EndFunc
 
 
