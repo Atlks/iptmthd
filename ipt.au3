@@ -2461,7 +2461,7 @@ EndFunc
 
 HotStringSet("list{space}", listFuname)
 Func listFuname()
-    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}列表")
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE} 列表")
 EndFunc
 
 
@@ -3198,7 +3198,7 @@ EndFunc
 
 HotStringSet("plc{space}", plcFuname)
 Func plcFuname()
-    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}地方")
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE} 地方")
 EndFunc
 
 
@@ -3691,16 +3691,9 @@ Func ruleFuname()
 EndFunc
 
 
-HotStringSet("run.{space}", runFuname)
-Func runFuname()
-    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}跑步。")
-EndFunc
 
 
-HotStringSet("S{space}", SFuname)
-Func SFuname()
-    Send("{BACKSPACE}{BACKSPACE}S")
-EndFunc
+
 
 
 HotStringSet("sad{space}", sadFuname)
@@ -4154,7 +4147,7 @@ EndFunc
 
 HotStringSet("spc{space}", spcFuname)
 Func spcFuname()
-    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}空间")
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE} 空间空格")
 EndFunc
 
 
@@ -4428,11 +4421,7 @@ Func systmFuname()
 EndFunc
 
 
-HotStringSet("T{space}", TFuname)
-Func TFuname()
-    Send("{BACKSPACE}{BACKSPACE}时间")
-EndFunc
-
+ 
 
 HotStringSet("tbl{space}", tblFuname)
 Func tblFuname()
@@ -4616,7 +4605,7 @@ EndFunc
 
 HotStringSet("time{space}", timeFuname)
 Func timeFuname()
-    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}时间")
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE} 时间")
 EndFunc
 
 

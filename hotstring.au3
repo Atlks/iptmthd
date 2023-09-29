@@ -26,7 +26,7 @@
 
 Local Const $HOTSTRING_MAXLEN = 250
 
-Local $initialized = False, $hotString_Debug = False, $hotString_hStub_KeyProc, $hotString_hmod, $hotString_hHook, $hotString_buffer = "", $hotString_User32, $hotString_hotkeys[1], $hotString_hotfuncs[1], $hotString_hWnd, $hotStringTimer = TimerInit()
+Local $initialized = False, $hotString_Debug = True, $hotString_hStub_KeyProc, $hotString_hmod, $hotString_hHook, $hotString_buffer = "", $hotString_User32, $hotString_hotkeys[1], $hotString_hotfuncs[1], $hotString_hWnd, $hotStringTimer = TimerInit()
 
 Global $HotStringPressed ; allows monitoring of the typed sequence
 Global $hotStringMaxInterval = 1500 ; allows monitoring of delays between keypresses (can be changed by user)
@@ -105,20 +105,28 @@ Func _HotString_EvaluateKey($key)
 EndFunc   ;==>_HotString_EvaluateKey
 
 Func _HotString_CheckHotkeys($current)
+	ConsoleWrite("【_HotString_CheckHotkeys】 cur=>"& $current & @CRLF)
 	For $i = 1 To UBound($hotString_hotkeys) - 1
 		If _HotString_Match($hotString_hotkeys[$i], $current) Then
 			$HotStringPressed = $hotString_hotkeys[$i]
 			_HotString_DebugWrite("Hotstring " & $hotString_hotkeys[$i] & " triggers method " & $hotString_hotfuncs[$i])
-			Call($hotString_hotfuncs[$i])
+		 	Call($hotString_hotfuncs[$i])
 			If @error Then
-				Call($hotString_hotfuncs[$i], $hotString_hotkeys[$i])
+			  	Call($hotString_hotfuncs[$i], $hotString_hotkeys[$i])
 			EndIf
 		EndIf
 	Next
 EndFunc   ;==>_HotString_CheckHotkeys
 
 Func _HotString_Match($hotkey, $current)
-	Return StringRight($current, StringLen($hotkey)) = $hotkey
+	;_HotString_DebugWrite("hoky=>"&$hotkey &"   cur=>"& $current)
+	Local $flags=False
+	if  $hotkey = $current then
+		$flags=true
+	EndIf
+	; _HotString_DebugWrite(" testrzt=>"& $flags)
+	Return $flags
+;	Return StringRight($current, StringLen($hotkey)) = $hotkey
 EndFunc   ;==>_HotString_Match
 
 Func _HotString_GUIKeyProc($hWnd, $Msg, $wParam, $lParam)
@@ -162,5 +170,5 @@ EndFunc   ;==>_HotString_OnAutoItExit
 
 Func _HotString_DebugWrite($line)
 	If Not $hotString_Debug Then Return
-	ConsoleWrite("HotString: " & $line & @CRLF)
+	ConsoleWrite("dbgwrtline: " & $line & @CRLF)
 EndFunc   ;==>_HotString_DebugWrite

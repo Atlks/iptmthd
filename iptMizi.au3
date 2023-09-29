@@ -8,6 +8,169 @@ HotStringSet("nm{space}", ngem)
 
 #include <ipt.au3>
  ConsoleWrite ( "start run..." )
+
+
+   HotStringSet("chs{space}", chs)
+Func chs()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}选择")
+EndFunc
+
+
+
+
+   HotStringSet("rct{space}", rct)
+Func rct()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}最近")
+EndFunc
+  HotStringSet("lst{space}", lst)
+Func lst()
+    Send("{BACKSPACE}{BACKSPACE}列表")
+EndFunc
+  HotStringSet("istc{space}", istc)
+Func istc()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}实例")
+EndFunc
+
+
+
+
+   HotStringSet("run{space}", run1)
+Func run1()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}运行")
+EndFunc
+  HotStringSet("alw{space}", alw)
+Func alw()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}允许")
+EndFunc
+  HotStringSet("sav{space}", sav)
+Func sav()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}保存")
+EndFunc
+
+
+  HotStringSet("load{space}", load)
+Func load()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}加载")
+EndFunc
+  HotStringSet("ld{space}", ld)
+Func ld()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}加载")
+EndFunc
+
+
+  HotStringSet("lnm{space}", lnm)
+Func lnm()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}行号")
+EndFunc
+  HotStringSet("wid{space}", wid)
+Func wid()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}宽度")
+EndFunc
+  HotStringSet("wrd{space}", wrd)
+Func wrd()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}单词")
+EndFunc
+
+
+
+
+
+
+  HotStringSet("ttl{space}", ttl)
+Func ttl()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}标题")
+EndFunc
+  HotStringSet("cur{space}", cur)
+Func cur()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}当前")
+EndFunc
+  HotStringSet("pth{space}", pth)
+Func pth()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}路径")
+EndFunc
+
+
+
+
+
+  HotStringSet("shw{space}", shw)
+Func shw()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}显示")
+EndFunc
+ HotStringSet("tool{space}", tool)
+Func tool()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}工具")
+EndFunc
+
+ HotStringSet("tbr{space}", tbr)
+Func tbr()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}工具栏")
+EndFunc
+
+
+HotStringSet("bar{space}", bar)
+Func bar()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}条")
+EndFunc
+
+
+
+
+
+
+ HotStringSet("def{space}", def)
+Func def()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}默认")
+EndFunc
+ HotStringSet("fscr{space}", fscr)
+Func fscr()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}全屏")
+EndFunc
+HotStringSet("let{space}", let)
+Func let()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}让")
+EndFunc
+
+
+
+
+
+ HotStringSet("opn{space}", opn)
+Func opn()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}打开")
+EndFunc
+
+
+ HotStringSet("wds{space}", wds)
+Func wds()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}窗户")
+EndFunc
+
+ HotStringSet("all{space}", all)
+Func all()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}所有")
+EndFunc
+
+
+
+
+
+ HotStringSet("mcr{space}", mcr)
+Func mcr()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}微")
+EndFunc
+
+ HotStringSet("nam{space}", nam)
+Func nam()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}名字")
+EndFunc
+ HotStringSet("ni{space}", ni)
+Func ni()
+    Send("{BACKSPACE}{BACKSPACE}你")
+EndFunc
+
+
+
 # MsgBox(0,"","start run...")
 HotStringSet("btw{space}", examplefunction)
 
@@ -29,6 +192,20 @@ Func ngem()
    # MsgBox(0,"","You typed callme! :)")
     Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}我们")
 EndFunc
+
+HotStringSet("mdf{space}", mdf)
+Func mdf()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}修改")
+EndFunc
+HotStringSet("font{space}", font)
+Func font()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}字体")
+EndFunc
+HotStringSet("oth{space}", oth)
+Func oth()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}其他")
+EndFunc
+
 
 
 HotStringSet("sys{space}", sys)
@@ -239,6 +416,12 @@ EndFunc
 HotStringSet("code{space}", code)
 Func code()
     Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE} 编码代码")
+EndFunc
+
+
+HotStringSet("rpls{space}", rplc)
+Func rplc()
+    Send(" 替换")
 EndFunc
 
 #cs
