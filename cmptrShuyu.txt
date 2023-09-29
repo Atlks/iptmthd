@@ -1,0 +1,485 @@
+﻿英文（English）	wordcn
+Abstract	抽象摘要
+Abstraction	抽象
+Access	访问
+Accessibility	
+Activate	激活
+Activation	激活
+Active	激活
+Adapter,	适配器
+Adaptor	适配器
+Add	添加
+Address	地址
+Advanced	高级
+Aggregation	聚合
+AI (Artificial intelligence)	人工智能
+Algorithm	算法
+Allocate	分配
+Allocator	分配器
+Annotation	注解
+App bundle	套件
+Application	应用
+Apply	应用
+Architecture	架构
+Argument	参数
+Arity	
+Artifact	成品
+Array	数组
+Assembly language	
+Assert,	断言 
+Assertion	
+	
+Assign, Assignment	
+Assignment operator	
+Asynchronize	异步
+Asynchronous	
+Atomic	原子的
+Attribute	属性
+Audio	音频
+auth	验证授权
+Authenticate, Authentication	
+Authorize, Authorization	
+Autoboxing	
+Background processes	
+Bandwidth	
+Base class	基类
+Batch	批（处理）
+Binary function	
+Binary operator	
+Binary search	
+Binary tree	
+Bind	绑定
+Bit	位
+Bitrate	码率
+Block	区块
+Block	
+Blocker	
+Boolean	布尔
+Bounce	退回
+Breakpoint	断点
+Build (verb)	
+Build (noun)	
+Build-in	
+Bundle	套件 
+Bundle (verb)	整合
+Bus	总线
+Burn	刻录
+Byte	字节
+Cache	缓存
+Call	调用
+Callback	回调
+Certificate	证书
+Character	字符
+Check	查看
+Check box, Checkbox	
+Class	类
+Point & Click (noun)	
+Click	
+(vs. Tap)	
+Tap	触碰 
+(vs. Click)	
+Client-side	
+Clipboard	剪贴板
+Clone	克隆
+Cloud computing	云计算
+Cohesion	内聚
+Collaborate, Collaboration	协作
+Combo box	组合框
+Come with	
+Command	命令
+Command line	命令行
+Comment	评论
+	注释 
+Commit	提交
+Communication	通信
+Community	社区
+Compatibility	兼容性
+Compatible	兼容的
+Compiler	编译
+Compilation	
+Compile time, Compile-time	
+Compiler	
+Component	组件
+Composition	组合
+Compress	压缩
+Concurrency	并发
+Concurrent	并发
+Configuration	配置
+Connect, Connection	
+Constant	常量
+Constraint	约束
+Constructor	构造函数
+Container	容器
+Context	上下文
+Continuous delivery	持续交付
+Continuous deployment	持续部署
+Continuous integration	持续集成
+Control	控制
+Copy	复制 
+Coroutine	协程
+Coupling	耦合
+Crash	崩溃 
+Create	
+Cursor	光标
+Custom	自定义
+Data	数据
+Data link layer	数据链路层
+Data structure	数据结构
+Database	数据库
+Database schema	数据库架构，数据库模式
+Deadlock	死锁
+Debug	调试
+Debugger	调试器
+Declare	声明
+Declare, Declaration	声明
+Default	默认
+Definition	定义
+Delegate	委托
+Delegation	委托
+Dependency	依赖
+Derived class	派生类
+Design pattern	设计模式
+Destructor	析构函数
+Detect	检测
+Detection	
+Device	设备
+Dialog	对话框
+Digital	数字化
+Digital signature	
+Digital certificate	
+Directory	目录
+Disk	
+Disk image	
+Dispatch	分派
+Distributed	分布式
+Distribute, Distribution	
+Distribution	
+Document	文档
+Domain	域
+Driver	驱动程序
+Dropdown 	下拉菜单
+Drop-down, Dropdown (noun)	
+Drop-down, Dropdown (verb)	
+Drop-down menu	
+Drop-down list	
+Dynamic binding	
+Element	元素
+Email, E-mail	
+Enable	启用
+Encapsulation	
+Entity	实体
+Enumeration	
+Equal	相等的
+Equality	
+Escape code	转义码
+Event	事件
+Exception	异常
+Explicit	
+Export	导出
+Expression	表达式
+Extension	扩展
+Extension	扩展名
+Feature	特点
+Feature	
+(vs. Function)	
+Feedback	反馈
+Field	字段
+File	
+Filter	过滤器
+Find	
+Firmware	固件
+Flag	标记
+Flash memory	闪存
+Flush	刷新
+	对齐，齐平
+Folder	文件夹
+Font	字体
+Form	表单
+Format	格式
+Format (verb)	
+Forward	转发
+Fragment	片段
+Frame	帧；框架
+Frame rate	帧率
+FPS (frames per second)	
+Framework	框架
+Frozen	冻结，锁定
+Full screen, Fullscreen	全屏
+Function	函数
+Function	
+(vs. Feature)	
+Functionality	
+Game	游戏
+Gateway	网关
+General	通用的
+Generate	生成
+Generic	
+Generics	泛型
+Global	全局的
+Group box	
+Graph	图
+Handle	句柄
+Handler	
+Hardware	硬件
+Hash	哈希
+Header file	
+Heap	堆
+Help	帮助
+Hierarchy	层次结构
+High Definition	高清晰度，高清
+Host file	主机文件
+Home folder	主文件夹 (win)；个人文件夹 (mac)
+Home page	主页
+Icon	图标
+	
+IDE	
+Identifier	标识符
+Idle	闲置
+Image	图像
+Immutable	不可变的
+Implement	实现
+Implementation	
+Implicit	隐式
+Import	导入
+Indent	缩进
+Info	简介
+Information	信息
+Inheritance	继承
+Initialization	初始化
+Inline	内联
+Instance	实例
+Integrate	集成
+Integrated	集成的
+Integrity	完整性
+Interact, Interaction	交互
+Interface	接口
+Internal Storage	
+Internationalization (I18N)	国际化
+Internet	互联网
+Interpreter	解释器
+Invoke	调用
+	
+Iterate	迭代；
+	重复、循环（访问）
+Iteration	迭代
+Iterator	迭代器
+Kernel	内核
+Key	密钥
+Keybind	快捷键
+Lag	延迟
+Layout	布局
+Lazy loading	
+Library	程序库
+Link	链接
+Link time	链接期
+Linked list	链表
+Linker	链接器
+List	列表
+Listener	监听器
+Literals	字面值
+Literal constant	字面常量
+Load	加载
+Load time	加载期
+Loader	加载器
+Local	
+Localization (L10N)	本地化
+Local variable	局部变量
+Lock	锁定
+Log	日志
+Log in, Login	登录
+Log out, Logout	
+Loop	循环
+Map, Mapping	映射
+Match	匹配
+Memory	内存
+Menu	菜单
+Message	消息
+Metadata	元数据
+	
+	
+Middleware	中间件，中间软件
+Mobile	移动
+Moderate, Moderation	审核
+Modifier	修饰符
+Module	模块
+Monomorphism	单态
+Motherboard	主板
+Mouse	鼠标
+Mouse pointer	鼠标指针
+Multitasking	多任务（处理）
+Mutable	可变的
+Mutex	互斥
+Native	原生
+Navigate, Navigation	导航
+Navigator	导航器
+Nested	嵌套的
+Network	网络
+New	新建
+Notarization	公证
+Object	对象
+Object code	目标代码
+Object file	目标文件
+Object-oriented	面向对象
+Online	在线
+Operand	操作数，运算元
+Operating system	操作系统
+Operator	操作符，运算符
+Optimize, Optimization	优化
+Overflow	溢出（上溢出）
+Overlay	叠加面板
+Overload	重载
+Override	覆盖，重写
+Pack	打包，压缩
+Package (noun)	（程序、软件）包
+Package (verb)	打包，封装
+Pane	窗格 (win)
+	面板 (mac)
+Parallelism	并行性，并行
+Parameter	参数（也称为形式参数，形参）
+Parse	解析
+Partition	分割；（硬盘）分区
+Paste	粘贴
+Patch	补丁 (win)
+	修补程序 (mac)
+Pattern	模式；样式
+Performance	性能
+Persistence	持久性
+Photo	照片
+Physical layer	物理层
+Picklist	选择列表
+Placeholder	占位符
+	
+	
+Pluggability	可插入性
+Plugin	插件
+	
+Pointer	指针
+Polymorphism	多态
+Port	端口
+Power bank	移动电源，充电宝
+Presentation layer	表示层
+Preset	预设
+Print	打印
+Printer	打印机
+Procedure	过程
+Process	进程
+Profile	配置文件 (win)
+	描述文件 (mac)
+Profile	评测
+Profile (or Personal profile)	个人资料
+Profiler	（性能）分析器
+Program	程序
+Project	项目
+Protocol	协议
+Provision, Provisioning	预配
+Proxy (or Proxy server)	代理服务器
+Pseudo code	伪代码
+Pull-down list	下拉列表
+Quality	质量
+Queue	队列
+Quit unexpectedly	意外退出
+Radian	弧度
+Radio button	单选按钮
+	
+RAM (Random Access Memory)	随机存取存储器
+Read	读
+Read-only	只读
+Recovery	还原
+Recursion	递归
+Redirect, Redirection	重定向
+Reference	参考
+Register	寄存器 
+Release	发行 
+Remote	远程
+Render	渲染
+Resolution	分辨率
+Response	响应
+Response body	响应正文
+Response header	响应头
+Restore	还原 
+Return	返回 
+Revoke, Revocation	撤销
+Rollback	回滚 
+Routine	程序
+Run	运行
+Runtime  	运行时环境
+Runtime environment (RTE), Runtime system	运行环境；运行系统
+Save	保存
+Sampling	取样
+Scalar	标量
+Schedule	调度
+Scheduler	调度器
+Scope	作用域
+Scroll bar	滚动条
+Script	脚本
+	
+SDK (Software Development Kit)	软件开发工具包 (win)
+	软件开发套件 (mac)
+Search engine	搜索引擎
+Security	安全性
+Segment	段
+Server	服务器
+Server-side	服务器端
+Session	会话
+Session	会话
+Session layer	会话层
+Set up	设置
+Settings	设置
+Shortcut	快捷
+Shortcut key	快捷键
+Sign in, sign-in	登录
+Sign out, sign-out	退出，注销
+Silicon	硅
+Simulation	模拟
+Signature	签名
+Slider	滑块
+Smart	智能
+Smartphone	智能手机
+SMS (Short Message Service)	短信
+Snip	截图
+Source code	源代码，源码
+Stack	栈
+Star rating	星级评分
+	
+Statement	语句
+Status bar	状态栏
+Stepper	步进器
+Stream	（数据）流
+String	字符串
+String interpolation	字符串插值
+Stuttering	-
+Subclass	子类
+Subroutine	子例程
+Superclass	超类
+Support	支持
+Suspend	暂停
+Synchronize	同步
+Synchronous	同步的
+Tab	标签（页）
+Tag	标签
+Task	任务
+Template	模板
+Text	文本
+Text box	文本框
+Thread	线程
+Top-up	充值
+Token	标记 (win)
+	令牌 (mac)
+	权杖；代币
+Traverse	遍历
+Tray (or System tray)	系统托盘
+Tree	树
+Tuple	元组
+Tutorial	教程
+Type	类型
+Universal	通用的
+Variable	变量
+Video	视频
+View	视图
+Voice	语音
+Volume	卷
+Window	窗口
+Widget	窗口部件
+Wildcard	通配符
+Workspaces	工作区
+Write	写

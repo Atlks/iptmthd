@@ -7,7 +7,265 @@ HotStringSet("nm{space}", ngem)
 
 
 #include <ipt.au3>
+#include <cmptrWords500.au3>
  ConsoleWrite ( "start run..." )
+
+  HotStringSet("frd{space}",frd)
+Func frd()
+    Send("朋友")
+EndFunc
+
+  HotStringSet("thk{space}",thk)
+Func thk()
+    Send("想思考")
+EndFunc
+
+
+  HotStringSet("org{space}",org)
+Func org()
+    Send("组织")
+EndFunc
+
+
+
+  HotStringSet("svr{space}",svr)
+Func svr()
+    Send("服务器端")
+EndFunc
+
+  HotStringSet("rlt{space}",rlt)
+Func rlt()
+    Send("关系")
+EndFunc
+
+
+
+  HotStringSet("cnn{space}",cnn)
+Func cnn()
+    Send("连接")
+EndFunc
+
+
+  HotStringSet("op{space}",op)
+Func op()
+    Send("操作")
+EndFunc
+
+
+
+  HotStringSet("frtnd{space}",frtnd)
+Func frtnd()
+    Send("前端")
+EndFunc
+
+
+  HotStringSet("bknd{space}",bknd)
+Func bknd()
+    Send("后端")
+EndFunc
+
+
+
+  HotStringSet("bld{space}",bld1)
+Func bld1()
+    Send("搭建")
+EndFunc
+
+   HotStringSet("spc{space}",spc)
+Func spc()
+    Send("特殊")
+EndFunc
+
+
+
+
+
+
+   HotStringSet("prblm{space}",prblm)
+Func prblm()
+    Send("问题")
+EndFunc
+
+
+
+  HotStringSet("slv{space}",slv)
+Func slv()
+    Send("解决")
+EndFunc
+
+
+HotStringSet("we{space}",us)
+  HotStringSet("us{space}",us)
+Func us()
+    Send("我们")
+EndFunc
+
+
+
+
+
+   HotStringSet("shma{space}",shma)
+Func shma()
+    Send("什么")
+EndFunc
+
+
+
+
+   HotStringSet("prcs{space}",prcs)
+Func prcs()
+    Send("处理")
+EndFunc
+
+
+
+
+
+
+
+
+   HotStringSet("db{space}", db)
+Func db()
+    Send("数据库")
+EndFunc
+
+
+  HotStringSet("ftr{space}", ftr)
+Func ftr()
+    Send("未来")
+EndFunc
+  HotStringSet("vw{space}", vw)
+Func vw()
+    Send("视图")
+EndFunc
+
+
+
+
+
+   HotStringSet("str{space}", str)
+Func str()
+    Send("字符串")
+EndFunc
+
+   HotStringSet("fcs{space}", fcs)
+Func fcs()
+    Send("焦点聚焦")
+EndFunc
+
+
+   HotStringSet("stdy{space}", stdy)
+Func stdy()
+    Send("学习")
+EndFunc
+
+
+
+   HotStringSet("impsb{space}", impsb)
+Func impsb()
+    Send("不可能")
+EndFunc
+
+
+
+  HotStringSet("rd{space}", rd)
+Func rd()
+    Send("阅读")
+EndFunc
+  HotStringSet("wrt{space}", wrt)
+Func wrt()
+    Send("写")
+EndFunc
+  HotStringSet("mky{space}", mky)
+Func mky()
+    Send("猴子")
+EndFunc
+
+
+
+
+  HotStringSet("srch{space}", srch)
+Func srch()
+    Send("搜索")
+EndFunc
+
+
+
+  HotStringSet("asgn{space}", asgn)
+Func asgn()
+    Send("分配")
+EndFunc
+  HotStringSet("fnd{space}", fnd)
+Func fnd()
+    Send("寻找")
+EndFunc
+  HotStringSet("cmplr{space}", cmplr)
+Func cmplr()
+    Send("编译器")
+EndFunc
+
+
+
+
+
+  HotStringSet("cflct{space}", cflct)
+Func cflct()
+    Send("冲突")
+EndFunc
+
+
+  HotStringSet("frt{space}", frt)
+Func frt()
+    Send("前")
+EndFunc
+
+
+
+
+
+  HotStringSet("err{space}", err)
+Func err()
+    Send("错误")
+EndFunc
+
+
+
+  HotStringSet("adjst{space}", adjst)
+Func adjst()
+    Send("调整")
+EndFunc
+
+  HotStringSet("fnt{space}", fnt)
+Func fnt()
+    Send("字体")
+EndFunc
+
+
+  HotStringSet("{space}{space}", clrBuf)
+Func clrBuf()
+
+EndFunc
+
+
+
+
+  HotStringSet("bkgrd{space}", bkgrd)
+Func bkgrd()
+    Send("背景")
+EndFunc
+
+
+
+  HotStringSet("chf{space}", chf)
+Func chf()
+    Send("吃饭")
+EndFunc
+   HotStringSet("yda{space}", yda)
+Func yda()
+    Send("一达")
+EndFunc
+
+
 
 
    HotStringSet("chs{space}", chs)
@@ -287,9 +545,9 @@ Func auto()
     Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE} 自动")
 EndFunc
 
-HotStringSet("frt{space}", frt)
-Func frt()
-    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE} 前面")
+HotStringSet("frnt{space}", frt1)
+Func frt1()
+    Send("前面")
 EndFunc
 
 HotStringSet("hdn{space}", hdn)
@@ -409,7 +667,17 @@ EndFunc
 
 HotStringSet("add{space}", add)
 Func add()
-    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE} 地址")
+    Send(" 添加")
+EndFunc
+
+HotStringSet("menu{space}", menu)
+Func menu()
+    Send(" 菜单")
+EndFunc
+
+HotStringSet("adrs{space}", adrs)
+Func adrs()
+    Send(" 地址")
 EndFunc
 
 

@@ -1,0 +1,396 @@
+英文（nglsh） wordcn
+Abstrct 抽象摘要
+Abstrctn 抽象
+Accss 访问
+Actvt 激活
+Actvtn 激活
+Actv 激活
+Adptr, 适配器
+Adptr 适配器
+Add 添加
+Addrss 地址
+Advncd 高级
+Aggrgtn 聚合
+A (rtfcl ntllgnc) 人工智能
+Algrthm 算法
+Allct 分配
+Allctr 分配器
+Annttn 注解
+App bndl 套件
+Applctn 应用
+Apply 应用
+Archtctr 架构
+Argmnt 参数
+Artfct 成品
+Arry 数组
+Assrt, 断言
+Asynchrnz 异步
+Atmc 原子的
+Attrbt 属性
+Ad 音频
+auth 验证授权
+Bs clss 基类
+Btch 批（处理）
+Bind 绑定
+Bit 位
+Btrt 码率
+Blck 区块
+Bln 布尔
+Bnc 退回
+Brkpnt 断点
+Bndl 套件
+Bndl (vrb) 整合
+Bus 总线
+Burn 刻录
+Byte 字节
+Cch 缓存
+Call 调用
+Cllbck 回调
+Crtfct 证书
+Chrctr 字符
+Chck 查看
+Clss 类
+Tap 触碰
+Clpbrd 剪贴板
+Cln 克隆
+Cld cmptng 云计算
+Chsn 内聚
+Cllbrt, Cllbrtn 协作
+Cmb bx 组合框
+Cmmnd 命令
+Cmmnd ln 命令行
+Cmmnt 评论
+Cmmt 提交
+Cmmnctn 通信
+Cmmnty 社区
+Cmptblty 兼容性
+Cmptbl 兼容的
+Cmplr 编译
+Cmpnnt 组件
+Cmpstn 组合
+Cmprss 压缩
+Cncrrncy 并发
+Cncrrnt 并发
+Cnfgrtn 配置
+Cnstnt 常量
+Cnstrnt 约束
+Cnstrctr 构造函数
+Cntnr 容器
+Cntxt 上下文
+Cntns dlvry 持续交付
+Cntns dplymnt 持续部署
+Cntns ntgrtn 持续集成
+Cntrl 控制
+Copy 复制
+Crtn 协程
+Cplng 耦合
+Crsh 崩溃
+Crsr 光标
+Cstm 自定义
+Data 数据
+Dt lnk lyr 数据链路层
+Dt strctr 数据结构
+Dtbs 数据库
+Dtbs schm 数据库架构，数据库模式
+Ddlck 死锁
+Dbg 调试
+Dbggr 调试器
+Dclr 声明
+Dclr, Dclrtn 声明
+Dflt 默认
+Dfntn 定义
+Dlgt 委托
+Dlgtn 委托
+Dpndncy 依赖
+Drvd clss 派生类
+Dsgn pttrn 设计模式
+Dstrctr 析构函数
+Dtct 检测
+Dvc 设备
+Dlg 对话框
+Dgtl 数字化
+Drctry 目录
+Dsptch 分派
+Dstrbtd 分布式
+Dcmnt 文档
+Dmn 域
+Drvr 驱动程序
+Drpdwn  下拉菜单
+Elmnt 元素
+Enbl 启用
+Entty 实体
+Eql 相等的
+Escp cd 转义码
+Evnt 事件
+Excptn 异常
+Exprt 导出
+Exprssn 表达式
+Extnsn 扩展
+Extnsn 扩展名
+Ftr 特点
+Fdbck 反馈
+Fld 字段
+Fltr 过滤器
+Frmwr 固件
+Flag 标记
+Flsh mmry 闪存
+Flsh 刷新
+Fldr 文件夹
+Font 字体
+Form 表单
+Frmt 格式
+Frwrd 转发
+Frgmnt 片段
+Frm 帧；框架
+Frm rt 帧率
+Frmwrk 框架
+Frzn 冻结，锁定
+Fll scrn, Fllscrn 全屏
+Fnctn 函数
+Game 游戏
+Gtwy 网关
+Gnrl 通用的
+Gnrt 生成
+Gnrcs 泛型
+Glbl 全局的
+Grph 图
+Hndl 句柄
+Hrdwr 硬件
+Hash 哈希
+Heap 堆
+Help 帮助
+Hrrchy 层次结构
+Hgh Dfntn 高清晰度，高清
+Hst fl 主机文件
+Hm fldr 主文件夹 (win)；个人文件夹 (mac)
+Hm pg 主页
+Icon 图标
+Idntfr 标识符
+Idle 闲置
+Img 图像
+Immtbl 不可变的
+Implmnt 实现
+Implct 隐式
+Imprt 导入
+Indnt 缩进
+Info 简介
+Infrmtn 信息
+Inhrtnc 继承
+Intlztn 初始化
+Inln 内联
+Instnc 实例
+Intgrt 集成
+Intgrtd 集成的
+Intgrty 完整性
+Intrct, ntrctn 交互
+Intrfc 接口
+Intrntnlztn (18N) 国际化
+Intrnt 互联网
+Intrprtr 解释器
+Invk 调用
+Itrt 迭代；
+Itrtn 迭代
+Itrtr 迭代器
+Krnl 内核
+Key 密钥
+Kybnd 快捷键
+Lag 延迟
+Lyt 布局
+Lbrry 程序库
+Link 链接
+Lnk tm 链接期
+Lnkd lst 链表
+Lnkr 链接器
+List 列表
+Lstnr 监听器
+Ltrls 字面值
+Ltrl cnstnt 字面常量
+Load 加载
+Ld tm 加载期
+Ldr 加载器
+Lclztn (L10N) 本地化
+Lcl vrbl 局部变量
+Lock 锁定
+Log 日志
+Lg n, Lgn 登录
+Loop 循环
+Mp, Mppng 映射
+Mtch 匹配
+Mmry 内存
+Menu 菜单
+Mssg 消息
+Mtdt 元数据
+Mddlwr 中间件，中间软件
+Mbl 移动
+Mdrt, Mdrtn 审核
+Mdfr 修饰符
+Mdl 模块
+Mnmrphsm 单态
+Mthrbrd 主板
+Ms 鼠标
+Ms pntr 鼠标指针
+Mlttskng 多任务（处理）
+Mtbl 可变的
+Mtx 互斥
+Ntv 原生
+Nvgt, Nvgtn 导航
+Nvgtr 导航器
+Nstd 嵌套的
+Ntwrk 网络
+New 新建
+Ntrztn 公证
+Objct 对象
+Objct cd 目标代码
+Objct fl 目标文件
+Objct-rntd 面向对象
+Onln 在线
+Oprnd 操作数，运算元
+Oprtng systm 操作系统
+Oprtr 操作符，运算符
+Optmz, ptmztn 优化
+Ovrflw 溢出（上溢出）
+Ovrly 叠加面板
+Ovrld 重载
+Ovrrd 覆盖，重写
+Pack 打包，压缩
+Pckg (nn) （程序、软件）包
+Pckg (vrb) 打包，封装
+Pane 窗格 (win)
+Prlllsm 并行性，并行
+Prmtr 参数（也称为形式参数，形参）
+Prs 解析
+Prttn 分割；（硬盘）分区
+Pst 粘贴
+Ptch 补丁 (win)
+Pttrn 模式；样式
+Prfrmnc 性能
+Prsstnc 持久性
+Pht 照片
+Physcl lyr 物理层
+Pcklst 选择列表
+Plchldr 占位符
+Plggblty 可插入性
+Plgn 插件
+Pntr 指针
+Plymrphsm 多态
+Port 端口
+Pwr bnk 移动电源，充电宝
+Prsnttn lyr 表示层
+Prst 预设
+Prnt 打印
+Prntr 打印机
+Prcdr 过程
+Prcss 进程
+Prfl 配置文件 (win)
+Prfl 评测
+Prfl (r Prsnl prfl) 个人资料
+Prflr （性能）分析器
+Prgrm 程序
+Prjct 项目
+Prtcl 协议
+Prvsn, Prvsnng 预配
+Prxy (r Prxy srvr) 代理服务器
+Psd cd 伪代码
+Pll-dwn lst 下拉列表
+Qlty 质量
+Q 队列
+Qt nxpctdly 意外退出
+Rdn 弧度
+Rd bttn 单选按钮
+RM (Rndm ccss Mmry) 随机存取存储器
+Read 读
+Rd-nly 只读
+Rcvry 还原
+Rcrsn 递归
+Rdrct, Rdrctn 重定向
+Rfrnc 参考
+Rgstr 寄存器
+Rls 发行
+Rmt 远程
+Rndr 渲染
+Rsltn 分辨率
+Rspns 响应
+Rspns bdy 响应正文
+Rspns hdr 响应头
+Rstr 还原
+Rtrn 返回
+Rvk, Rvctn 撤销
+Rllbck 回滚
+Rtn 程序
+Run 运行
+Rntm   运行时环境
+Rntm nvrnmnt (RT), Rntm systm 运行环境；运行系统
+Save 保存
+Smplng 取样
+Sclr 标量
+Schdl 调度
+Schdlr 调度器
+Scp 作用域
+Scrll br 滚动条
+Scrpt 脚本
+SDK (Sftwr Dvlpmnt Kt) 软件开发工具包 (win)
+Srch ngn 搜索引擎
+Scrty 安全性
+Sgmnt 段
+Srvr 服务器
+Srvr-sd 服务器端
+Sssn 会话
+Sssn 会话
+Sssn lyr 会话层
+St p 设置
+Sttngs 设置
+Shrtct 快捷
+Shrtct ky 快捷键
+Sgn n, sgn-n 登录
+Sgn t, sgn-t 退出，注销
+Slcn 硅
+Smltn 模拟
+Sgntr 签名
+Sldr 滑块
+Smrt 智能
+Smrtphn 智能手机
+SMS (Shrt Mssg Srvc) 短信
+Snip 截图
+Src cd 源代码，源码
+Stck 栈
+Str rtng 星级评分
+Sttmnt 语句
+Stts br 状态栏
+Stppr 步进器
+Strm （数据）流
+Strng 字符串
+Strng ntrpltn 字符串插值
+Stttrng -
+Sbclss 子类
+Sbrtn 子例程
+Sprclss 超类
+Spprt 支持
+Sspnd 暂停
+Synchrnz 同步
+Synchrns 同步的
+Tab 标签（页）
+Tag 标签
+Task 任务
+Tmplt 模板
+Text 文本
+Txt bx 文本框
+Thrd 线程
+Tp-p 充值
+Tkn 标记 (win)
+Trvrs 遍历
+Try (r Systm try) 系统托盘
+Tree 树
+Tpl 元组
+Ttrl 教程
+Type 类型
+Unvrsl 通用的
+Vrbl 变量
+Vd 视频
+View 视图
+Vc 语音
+Vlm 卷
+Wndw 窗口
+Wdgt 窗口部件
+Wldcrd 通配符
+Wrkspcs 工作区
+Wrt 写

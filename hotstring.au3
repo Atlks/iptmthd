@@ -106,16 +106,35 @@ EndFunc   ;==>_HotString_EvaluateKey
 
 Func _HotString_CheckHotkeys($current)
 	ConsoleWrite("【_HotString_CheckHotkeys】 cur=>"& $current & @CRLF)
+	if $current="{space}" then
+		$hotString_buffer = "" ;//cler buff
+		Return
+	EndIf
+	if $current="{enter}" then
+		$hotString_buffer = "" ;//cler buff
+		Return
+	EndIf
 	For $i = 1 To UBound($hotString_hotkeys) - 1
 		If _HotString_Match($hotString_hotkeys[$i], $current) Then
 			$HotStringPressed = $hotString_hotkeys[$i]
 			_HotString_DebugWrite("Hotstring " & $hotString_hotkeys[$i] & " triggers method " & $hotString_hotfuncs[$i])
 		 	Call($hotString_hotfuncs[$i])
+			$hotString_buffer = "" ;//cler buff
 			If @error Then
 			  	Call($hotString_hotfuncs[$i], $hotString_hotkeys[$i])
 			EndIf
 		EndIf
 	Next
+
+	;-----one woord finish,clr buff
+	if StringRight($current,7)="{space}" then
+		$hotString_buffer = "" ;//cler buff
+		Return
+	EndIf
+	if StringRight($current,7)="{enter}" then
+		$hotString_buffer = "" ;//cler buff
+		Return
+	EndIf
 EndFunc   ;==>_HotString_CheckHotkeys
 
 Func _HotString_Match($hotkey, $current)

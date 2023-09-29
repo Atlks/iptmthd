@@ -1741,10 +1741,7 @@ Func fromFuname()
 EndFunc
 
 
-HotStringSet("frnt{space}", frntFuname)
-Func frntFuname()
-    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}正面")
-EndFunc
+ 
 
 
 HotStringSet("frt{space}", frtFuname)
@@ -4297,7 +4294,7 @@ EndFunc
 
 HotStringSet("str{space}", strFuname)
 Func strFuname()
-    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}店铺")
+    Send(" 店铺")
 EndFunc
 
 
