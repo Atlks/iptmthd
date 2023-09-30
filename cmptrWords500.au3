@@ -4,6 +4,330 @@ Func nglshFuname()
 EndFunc
 
 
+HotStringSet("code{space}", code)
+Func code()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE} 编码代码")
+EndFunc
+
+
+HotStringSet("rpls{space}", rplc)
+Func rplc()
+    Send(" 替换")
+EndFunc
+HotStringSet("ref{space}", ref)
+Func ref()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}引用参考")
+EndFunc
+
+HotStringSet("inst{space}", inst)
+Func inst()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}安装")
+EndFunc
+
+
+HotStringSet("mng{space}", mng)
+Func mng()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}管理")
+EndFunc
+
+HotStringSet("edtr{space}", edtr)
+Func edtr()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}编辑器")
+EndFunc
+
+HotStringSet("txt{space}", txt)
+Func txt()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}文本")
+EndFunc
+
+
+
+HotStringSet("itm{space}", itm)
+Func itm()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}项目")
+EndFunc
+HotStringSet("cfg{space}", cfg)
+Func cfg()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}配置")
+EndFunc
+
+
+HotStringSet("enc{space}", enc)
+Func enc()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE} 编码")
+EndFunc
+
+HotStringSet("dir{space}", dir)
+Func dir()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE} 目录")
+EndFunc
+
+HotStringSet("dwn{space}", dwn)
+Func dwn()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE} 下载")
+EndFunc
+
+HotStringSet("rbt{space}", rbt)
+Func rbt()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE} 重启")
+EndFunc
+
+HotStringSet("fil{space}", fil)
+Func fil()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE} 文件")
+EndFunc
+HotStringSet("cpy{space}", cpy)
+Func cpy()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}复制")
+EndFunc
+
+
+
+
+
+HotStringSet("clk{space}", clk)
+Func clk()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE} 点击")
+EndFunc
+
+HotStringSet("prg{space}", prg)
+Func prg()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}编程")
+EndFunc
+
+HotStringSet("mdf{space}", mdf)
+Func mdf()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}修改")
+EndFunc
+HotStringSet("font{space}", font)
+Func font()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}字体")
+EndFunc
+
+ HotStringSet("opn{space}", opn)
+Func opn()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}打开")
+EndFunc
+
+
+ HotStringSet("wds{space}", wds)
+Func wds()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}窗户")
+EndFunc
+
+
+  HotStringSet("shw{space}", shw)
+Func shw()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}显示")
+EndFunc
+ HotStringSet("tool{space}", tool)
+Func tool()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}工具")
+EndFunc
+
+ HotStringSet("tbr{space}", tbr)
+Func tbr()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}工具栏")
+EndFunc
+
+
+HotStringSet("bar{space}", bar)
+Func bar()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}条")
+EndFunc
+
+   HotStringSet("run{space}", run1)
+Func run1()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}运行")
+EndFunc
+  HotStringSet("alw{space}", alw)
+Func alw()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}允许")
+EndFunc
+  HotStringSet("sav{space}", sav)
+Func sav()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}保存")
+EndFunc
+
+
+  HotStringSet("load{space}", load)
+Func load()
+    Send("加载")
+EndFunc
+  HotStringSet("ld{space}", ld)
+Func ld()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}加载")
+EndFunc
+
+
+  HotStringSet("lnm{space}", lnm)
+Func lnm()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}行号")
+EndFunc
+
+  HotStringSet("bkgrd{space}", bkgrd)
+Func bkgrd()
+    Send("背景")
+EndFunc
+
+  HotStringSet("asgn{space}", asgn)
+Func asgn()
+    Send("分配")
+EndFunc
+  HotStringSet("fnd{space}", fnd)
+Func fnd()
+    Send("寻找")
+EndFunc
+  HotStringSet("cmplr{space}", cmplr)
+Func cmplr()
+    Send("编译器")
+EndFunc
+
+
+
+
+
+  HotStringSet("cflct{space}", cflct)
+Func cflct()
+    Send("冲突")
+EndFunc
+
+   HotStringSet("str{space}", str)
+Func str()
+    Send("字符串")
+EndFunc
+
+   HotStringSet("fcs{space}", fcs)
+Func fcs()
+    Send("焦点聚焦")
+EndFunc
+
+   HotStringSet("prcs{space}",prcs)
+Func prcs()
+    Send("处理")
+EndFunc
+
+
+
+
+
+
+
+
+   HotStringSet("db{space}", db)
+Func db()
+    Send("数据库")
+EndFunc
+
+
+  HotStringSet("ftr{space}", ftr)
+Func ftr()
+    Send("未来")
+EndFunc
+  HotStringSet("vw{space}", vw)
+Func vw()
+    Send("视图")
+EndFunc
+
+
+  HotStringSet("frtnd{space}",frtnd)
+Func frtnd()
+    Send("前端")
+EndFunc
+
+
+  HotStringSet("bknd{space}",bknd)
+Func bknd()
+    Send("后端")
+EndFunc
+
+
+
+  HotStringSet("bld{space}",bld1)
+Func bld1()
+    Send("搭建")
+EndFunc
+
+   HotStringSet("cln{space}",cln)
+Func cln()
+    Send("清理干净")
+EndFunc
+
+   HotStringSet("buf{space}",buf)
+Func buf()
+    Send("缓冲")
+EndFunc
+  HotStringSet("svr{space}",svr)
+Func svr()
+    Send("服务器端")
+EndFunc
+  HotStringSet("cnn{space}",cnn)
+Func cnn()
+    Send("连接")
+EndFunc
+
+
+  HotStringSet("op{space}",op)
+Func op()
+    Send("操作")
+EndFunc
+
+
+
+
+  HotStringSet("Kbd{space}",Kbd)
+Func Kbd()
+    Send("键盘")
+EndFunc
+
+  HotStringSet("lsn{space}",lsn)
+Func lsn()
+    Send("监听")
+EndFunc
+
+  HotStringSet("also{space}",also)
+Func also()
+    Send("也")
+EndFunc
+  HotStringSet("ivk{space}",ivk)
+Func ivk()
+    Send("调用")
+EndFunc
+
+HotStringSet("ipt{space}",iptm2)
+Func iptm2()
+    Send("输入")
+EndFunc
+
+HotStringSet("iptm{space}",iptm)
+Func iptm()
+    Send("输入法")
+EndFunc
+
+
+HotStringSet("tek{space}",tek)
+Func tek()
+    Send("技术")
+EndFunc
+
+
+
+HotStringSet("bp{space}",bp)
+Func bp()
+    Send("最佳实践")
+EndFunc
+
+
+
+
+
+HotStringSet("prcp{space}",prcp)
+Func prcp()
+    Send("原理")
+EndFunc
+
+
+
 HotStringSet("Abstrct{space}", AbstrctFuname)
 Func AbstrctFuname()
     Send("{BACKSPACE}抽象摘要")
@@ -73,10 +397,7 @@ Func AggrgtnFuname()
 EndFunc
 
 
-HotStringSet("A{space}", AFuname)
-Func AFuname()
-    Send("{BACKSPACE}(rtfcl")
-EndFunc
+
 
 
 HotStringSet("Algrthm{space}", AlgrthmFuname)
@@ -2133,7 +2454,7 @@ EndFunc
 
 HotStringSet("Try{space}", TryFuname)
 Func TryFuname()
-    Send("{BACKSPACE}(r")
+    Send("尝试")
 EndFunc
 
 
