@@ -309,7 +309,7 @@ Func ClpbrdFuname()
 EndFunc
 
 
-HotStringSet("Cln{space}", ClnFuname1)
+HotStringSet("Clon{space}", ClnFuname1)
 Func ClnFuname1()
     Send("{BACKSPACE}克隆")
 EndFunc
@@ -2227,9 +2227,6 @@ Func WrtFuname()
 EndFunc
 
 
-HotStringSet("{space}", Funame)
-Func Funame()
-    Send("{BACKSPACE}undefined")
-EndFunc
+
 
 

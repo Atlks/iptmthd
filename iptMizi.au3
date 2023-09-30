@@ -8,9 +8,50 @@ HotStringSet("nm{space}", ngem)
 
 #include <ipt.au3>
 #include <cmptrWords500.au3>
+
+
  ConsoleWrite ( "start run..." )
 
-  HotStringSet("frd{space}",frd)
+ HotStringSet("hd{space}",hd)
+Func hd()
+    Send("头部")
+EndFunc
+
+HotStringSet("ipt{space}",iptm2)
+Func iptm2()
+    Send("输入")
+EndFunc
+
+HotStringSet("iptm{space}",iptm)
+Func iptm()
+    Send("输入法")
+EndFunc
+
+
+HotStringSet("tek{space}",tek)
+Func tek()
+    Send("技术")
+EndFunc
+
+
+
+HotStringSet("bp{space}",bp)
+Func bp()
+    Send("最佳实践")
+EndFunc
+
+
+
+
+
+HotStringSet("prcp{space}",prcp)
+Func prcp()
+    Send("原理")
+EndFunc
+
+
+
+HotStringSet("frd{space}",frd)
 Func frd()
     Send("朋友")
 EndFunc
@@ -53,6 +94,28 @@ EndFunc
 
 
 
+
+  HotStringSet("Kbd{space}",Kbd)
+Func Kbd()
+    Send("键盘")
+EndFunc
+
+  HotStringSet("lsn{space}",lsn)
+Func lsn()
+    Send("监听")
+EndFunc
+
+  HotStringSet("also{space}",also)
+Func also()
+    Send("也")
+EndFunc
+  HotStringSet("ivk{space}",ivk)
+Func ivk()
+    Send("调用")
+EndFunc
+
+
+
   HotStringSet("frtnd{space}",frtnd)
 Func frtnd()
     Send("前端")
@@ -71,8 +134,29 @@ Func bld1()
     Send("搭建")
 EndFunc
 
-   HotStringSet("spc{space}",spc)
-Func spc()
+   HotStringSet("cln{space}",cln)
+Func cln()
+    Send("清理干净")
+EndFunc
+
+   HotStringSet("buf{space}",buf)
+Func buf()
+    Send("缓冲")
+EndFunc
+
+   HotStringSet("wd{space}",wd)
+Func wd()
+    Send("单词")
+EndFunc
+
+   HotStringSet("otpt{space}",otpt)
+Func otpt()
+    Send("输出")
+EndFunc
+
+; sbesho
+   HotStringSet("sbs{space}",spc2)
+Func spc2()
     Send("特殊")
 EndFunc
 
@@ -308,7 +392,7 @@ EndFunc
 
   HotStringSet("load{space}", load)
 Func load()
-    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}加载")
+    Send("加载")
 EndFunc
   HotStringSet("ld{space}", ld)
 Func ld()

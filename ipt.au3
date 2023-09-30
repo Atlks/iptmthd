@@ -775,10 +775,6 @@ Func crclFuname()
 EndFunc
 
 
-HotStringSet("cln{space}", clnFuname)
-Func clnFuname()
-    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}干净的")
-EndFunc
 
 
 HotStringSet("clr{space}", clrFuname)
@@ -1741,7 +1737,7 @@ Func fromFuname()
 EndFunc
 
 
- 
+
 
 
 HotStringSet("frt{space}", frtFuname)
@@ -4418,7 +4414,7 @@ Func systmFuname()
 EndFunc
 
 
- 
+
 
 HotStringSet("tbl{space}", tblFuname)
 Func tblFuname()
@@ -5087,28 +5083,18 @@ Func wrtngFuname()
 EndFunc
 
 
-HotStringSet("wrng.{space}", wrngFuname)
+HotStringSet("wrng{space}", wrngFuname)
 Func wrngFuname()
-    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}错误的。")
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}错误的")
 EndFunc
 
 
-HotStringSet("X{space}", XFuname)
-Func XFuname()
-    Send("{BACKSPACE}{BACKSPACE}X")
-EndFunc
 
 
-HotStringSet("Y{space}", YFuname)
-Func YFuname()
-    Send("{BACKSPACE}{BACKSPACE}是")
-EndFunc
 
 
-HotStringSet("Z{space}", ZFuname)
-Func ZFuname()
-    Send("{BACKSPACE}{BACKSPACE}Z")
-EndFunc
+
+
 
 
 HotStringSet("year{space}", yearFuname)
