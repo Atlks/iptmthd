@@ -90,21 +90,22 @@ Func _HotString_EvaluateKey($key)
 
 
   ; ConsoleWrite("【_HotString_CheckHotkeys】 cur=>"& $current & @CRLF)
-     ;;;; abc
+     ;;;; abc dmddddddddddddddddddddd ffxabc02rtyyyyyyyyyyyio
 	If StringLen($key) > 1 Then
 		$key = "{" & $key & "}"
 	EndIf
 
 	_HotString_DebugWrite("Received key: " & $key)
 	  ;-------save cur to file for show choose
-	FileDelete ("curKey.txt")
-    FileWrite ( ("curKey.txt"),$key )
+	  Local $rdm=Random ()
+;	FileDelete ()
+    FileWrite ("keysdir/curKey"&$rdm&".txt",$key )
 
 EndFunc   ;==>_HotString_EvaluateKey
 
 
 
-;
+; s
 
 
 Func _HotString_OnAutoItExit()
