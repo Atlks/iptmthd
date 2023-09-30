@@ -2439,6 +2439,10 @@ Func TppFuname()
     Send("{BACKSPACE}充值")
 EndFunc
 
+HotStringSet("bck{space}", bck)
+Func bck()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}后台")
+EndFunc
 
 HotStringSet("Tkn{space}", TknFuname)
 Func TknFuname()

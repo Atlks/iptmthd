@@ -436,14 +436,13 @@ Func need()
     Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}需要")
 EndFunc
 
-
-
-
-
-HotStringSet("bck{space}", bck)
-Func bck()
-    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}后台")
+;   喜欢la   la  l
+;  buf 缓冲  buf   buf
+HotStringSet("lk{space}", lk)
+Func lk()
+    Send("{BACKSPACE}{BACKSPACE}{BACKSPACE}{BACKSPACE}喜欢")
 EndFunc
+
 
 HotStringSet("add{space}", add)
 Func add()
@@ -460,7 +459,7 @@ Func adrs()
     Send(" 地址")
 EndFunc
 
-
+; lk
 
 #cs
 ; ALTERNATIVELY give your method one parameter which will receive the full hotstring name
@@ -479,11 +478,14 @@ EndFunc
 
 #ce
 
+; lklk lk
 
 
 
+HotStringSet("{Backspace}", adrs355)
+Func adrs355()
 
-
+EndFunc
 
 
 

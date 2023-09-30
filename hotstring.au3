@@ -29,7 +29,7 @@ Local Const $HOTSTRING_MAXLEN = 250
 Local $initialized = False, $hotString_Debug = True, $hotString_hStub_KeyProc, $hotString_hmod, $hotString_hHook, $hotString_buffer = "", $hotString_User32, $hotString_hotkeys[1], $hotString_hotfuncs[1], $hotString_hWnd, $hotStringTimer = TimerInit()
 
 Global $HotStringPressed ; allows monitoring of the typed sequence
-Global $hotStringMaxInterval = 1500 ; allows monitoring of delays between keypresses (can be changed by user)
+Global $hotStringMaxInterval = 55000 ; allows monitoring of delays between keypresses (can be changed by user)
 Global $hotStringActive ; stops hotkey sequences from triggering other hotkey sequences
 
 ;========================================
@@ -114,6 +114,16 @@ Func _HotString_CheckHotkeys($current)
 		$hotString_buffer = "" ;//cler buff
 		Return
 	EndIf
+	if $current="{Backspace}" then
+		$hotString_buffer = "" ;//cler buff
+		Return
+	EndIf
+
+
+    ;-------save cur to file for show choose
+	FileDelete ("cur_ipt_wd_buf.txt")
+    FileWrite ( ("cur_ipt_wd_buf.txt"),$current )
+	;------------main prcs
 	For $i = 1 To UBound($hotString_hotkeys) - 1
 		If _HotString_Match($hotString_hotkeys[$i], $current) Then
 			$HotStringPressed = $hotString_hotkeys[$i]
