@@ -82,7 +82,7 @@ Func _HotString_GUIKeyProc($hWnd, $Msg, $wParam, $lParam)
 	EndIf
 
 	Return 0 ; Don't run the AutoIt internal handler for this GUI
-EndFunc   ;==>_HotString_GUIKeyProc s
+EndFunc   ;==>_HotString_GUIKeyProc s s
 
 
 
